@@ -9,48 +9,48 @@ def kingattack(b_x, b_y, q_x, q_y):
 
     # king attack
     try:
-        boardk[q_y-1][q_x] = "o"
+        boardk[q_y-1][q_x] = "1"
     except:
         pass
 
     try:
-        boardk[q_y-2][q_x] = "o"
+        boardk[q_y-2][q_x] = "2"
     except:
         pass
 
     try:
-        boardk[q_y][q_x] = "o"
+        boardk[q_y][q_x] = "3"
     except:
         pass
 
     try:
-        boardk[q_y-2][q_x-2] = "o"
-
-    except:
-        pass
-
-    try:
-        boardk[q_y][q_x-2] = "o"
+        boardk[q_y-2][q_x-2] = "4"
 
     except:
         pass
 
     try:
-        boardk[q_y-1][q_x-2] = "o"
+        boardk[q_y][q_x-2] = "5"
 
     except:
         pass
 
     try:
-
-        boardk[q_y][q_x-1] = "o"
+        boardk[q_y-1][q_x-2] = "6"
 
     except:
         pass
 
     try:
 
-        boardk[q_y-2][q_x-1] = "o"
+        boardk[q_y][q_x-1] = "7"
+
+    except:
+        pass
+
+    try:
+
+        boardk[q_y-2][q_x-1] = "8"
     except:
         pass
     

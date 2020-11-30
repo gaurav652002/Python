@@ -55,56 +55,59 @@ def KnightAttack(b_x, b_y, q_x, q_y):
 
     #king's input
 
-    q_x=int(input("king's location:\n x: "))
-    q_y=int (input(" y: "))
+    k_x=int(input("king's location:\n x: "))
+    k_y=int (input(" y: "))
     # king attack
     try:
-        boardkn[q_y-1][q_x] = " "
+        if boardkn[q_y-2][q_x+1]==boardkn[k_y-1][k_x] or boardkn[q_y-3][q_x]==boardkn[q_y-3][q_x]or boardkn[q_y][q_x+1==boardkn[q_y-3][q_x] or boardkn[q_y-3][q_x]==boardkn[q_y-3][q_x] or boardkn[q_y-3][q_x]==boardkn[q_y-3][q_x] or boardkn[q_y-3][q_x]==boardkn[q_y-3][q_x]
+
+            boardkn[k_y-1][k_x] = "x"
     except:
         pass
 
     try:
-        boardkn[q_y-2][q_x] = " "
+        if
+        boardkn[k_y-2][k_x] = " "
     except:
         pass
 
     try:
-        boardkn[q_y][q_x] = " "
+        boardkn[k_y][k_x] = " "
     except:
         pass
 
     try:
-        boardkn[q_y-2][q_x-2] = " "
-
-    except:
-        pass
-
-    try:
-        boardkn[q_y][q_x-2] = " "
-
-    except:
-        pass
-
-    try:
-        boardkn[q_y-1][q_x-2] = " "
+        boardkn[k_y-2][k_x-2] = " "
 
     except:
         pass
 
     try:
+        boardkn[k_y][k_x-2] = " "
 
-        boardkn[q_y][q_x-1] = " "
+    except:
+        pass
+
+    try:
+        boardkn[k_y-1][k_x-2] = " "
 
     except:
         pass
 
     try:
 
-        boardkn[q_y-2][q_x-1] = " "
+        boardkn[k_y][k_x-1] = " "
+
+    except:
+        pass
+
+    try:
+
+        boardkn[k_y-2][k_x-1] = " "
     except:
         pass   
     # king's position
-    boardkn[q_y-1][q_x-1] = "K"
+    boardkn[k_y-1][k_x-1] = "K"
 
     # printing board
     look = ""
