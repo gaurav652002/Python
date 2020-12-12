@@ -3,6 +3,7 @@ import os
 import random
 import re
 import sys
+#this is a simple function to count the number of points listed in the list
 
 # Complete the compareTriplets function below.
 def compareTriplets(a, b):
@@ -28,5 +29,5 @@ if __name__ == '__main__':
     result = compareTriplets(a, b)
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
-
+#include 
     fptr.close()
