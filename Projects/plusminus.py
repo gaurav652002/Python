@@ -11,6 +11,19 @@ def plusminus(arr):
             b +=1
         if i==0:
             c +=1
-    n_tive=a/le
-    p_tive=b/le
-    z_r=c/le
+    ntive=a/le
+    ptive=b/le
+    zr=c/le
+    print(ntive)
+    print(ptive)
+    print(zr)
+    
+
+arr = []
+n=int(input('please enter the number of elements in the array:'))
+for i in range(n):
+    elemnt=int(input())
+
+    arr.append(elemnt)
+
+plusminus(arr)
