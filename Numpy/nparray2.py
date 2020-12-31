@@ -27,4 +27,3 @@ print("the 5th element on the 1st row and 2nd colum is {}".format(arr4[0,1,0]))
 #printing a 5d array
 arr5 = np.array([[[[1,2,3,],[33,3,3],[4,4,4,4],[5,5,5,5]]]])
 print("the following is a 4 d array{}".format(arr5))
-binary sort??? ye k 
